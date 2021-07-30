@@ -1,0 +1,414 @@
+*{
+    box-sizing: border-box;
+}
+
+.textofooter {
+    font-size: 12px;
+}
+
+#ultimasvisitas {
+    font-size: 24px;
+    color:#666;
+    padding: 5px;
+    text-align:left
+}
+
+#ofertas {
+    font-size: 24px;
+    color:#666;
+    padding: 5px;
+    text-align: left;
+}
+
+.precio {
+    font-size: 18px;
+}
+
+.off {
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.producto {
+    font-size: 16px;
+}
+
+main{
+    text-align: center ;
+    width: 100%;
+    margin: auto;
+    display: block;
+    background-color: #ebebeb;
+}
+
+body {
+    margin: 2%;
+    background-color: #EAC926;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    max-width:100%;
+    max-height:100%;
+    margin: auto;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    display: none;
+}
+
+#logo {
+    width: 50%;
+    height: 50%;
+}
+
+
+.finderlogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+}
+
+#headercentrado {
+    display: flex;
+    flex-direction: column;
+}
+
+.burger-menu {
+    display: flex;
+    align-self: center;
+}
+
+#banner {
+    margin-top: 10px;
+    width: 120%;
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+}
+
+.infoproducto {
+    border-top: 1px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-style: solid;
+    border-color:#ebebeb;
+    text-align: left;
+    padding: 15px;
+    line-height: 0.15;
+    display: none;
+    position: relative;
+}
+
+.productos {
+    margin: 10px;
+    background-color: white;
+}
+
+.preciooff {
+    display: flex;
+    flex-direction: row;
+}
+
+.precio {
+    margin-right: 10px;
+}
+
+#truck {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color: #39b54a;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    color: #666;
+    width: 100%;
+}
+
+.textofooter {
+    width: 60%;
+}
+
+.tarjetafooter {
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+#tarjeta{
+    color: blue;
+}
+
+#copyright{
+    text-align: left;
+    padding: 10px;
+}
+
+button{
+    background-color: blue;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#icon{
+    color: white;
+    display: flex;
+    align-self: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+#enviar {
+    color: white;
+    width: 90%;
+    border-style: none;
+    border-radius: 4px;
+    padding: 8px;
+    align-self: center;
+}
+
+#borrar {
+    color: blue;
+    background-color: white;
+    width: 90%;
+    border-style: none;
+    border-radius: 4px;
+    padding: 8px;
+    align-self: center;
+}
+
+.rectangulo {
+    width: 90%;
+    border-style: none;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+#perfil{
+    display: flex;
+    flex-direction: row;
+    align-self:flex-start;
+}
+
+.opcionperfil {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.intereses{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textointereses {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.subtituloregistro {
+    font-size: 14px;
+    font-weight:600;
+    padding: 15px;
+}
+
+#subirarchivo {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#textobotonenviar{
+    color: white;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+@media (min-width: 361px){
+    /*Tablet*/
+    ul {
+        display: block;
+    }
+    .infoproducto {
+        display: block;
+    }
+    .productos{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .burger-menu {
+        display: none;
+    }
+    #lista1 {
+        display: flex;
+        flex-direction: row;
+    }
+    li {
+        margin-right: 10px;
+    }
+    #lista2 {
+        display: flex;
+        flex-direction: row;
+    }
+    #headercentrado {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+    .finderlogo {
+        display: flex;
+        flex-direction: row;
+    }
+    #logo {
+        max-width: 50%;
+    }
+    .subtituloregistro{
+        padding: 38px;
+    }
+    .opcionperfil {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .intereses {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #subirarchivo {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (min-width: 769px){
+    /*Desktop*/
+    ul {
+        display: block;
+    }
+    .infoproducto {
+        display: block;
+    }
+    .productos{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .burger-menu {
+        display: none;
+    }
+    #lista1 {
+        display: flex;
+        flex-direction: row;
+    }
+    li {
+        margin-right: 10px;
+    }
+    #lista2 {
+        display: flex;
+        flex-direction: row;
+    }
+    #headercentrado {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: row;
+    }
+    .producto {
+        display: block;
+    }
+    .subtituloregistro{
+        padding: 48px;
+        font-size: 20px;
+    }
+    .opcionperfil {
+        margin-left:60px;
+        margin-right: 60px;
+    }
+    .intereses{
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .textointereses {
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 16px;
+    }
+    #subirarchivo {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    #enviar {
+        font-size: 18px;
+    }
+    #borrar {
+        font-size: 18px;
+    }
+    .textoperfil {
+        font-size: 16px;
+    }
+    .rectangulo {
+        font-size: 16px;
+    }
+    #compraencuotas {
+        font-size: 14px;
+    }
+    ul {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
