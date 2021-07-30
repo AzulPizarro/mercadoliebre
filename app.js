@@ -25,7 +25,7 @@ app.get('*', function(request, response){
     response.send('NOT FOUND', 404)
 })
 
-app.listen(port, ()=>{
-    console.log('La app esta funcionando en http://localhost:3030/')
+app.listen(process.env.PORT||3000,function(){
+    console.log("servidos corriendo en el puerto 3000");
 })
 
